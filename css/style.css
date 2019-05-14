@@ -1,0 +1,342 @@
+/*student - Teacher */
+body{
+	background-color:#e4e4e4e4;
+}
+/*navbar*/
+.navbar{
+	margin-bottom:0px;
+	border-radius:5px;
+}
+.navbar-inverse {
+    background-color: #4CAF50;
+    border-color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #EBEBEB;
+    background-color: #aeaeaeae;
+
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #EBEBEB;
+
+}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+     color: #EBEBEB;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+/*slide*/
+.slide{
+	margin-top:5px;
+}
+.slide-responsive{
+	width:100%;
+	max-height:400px;
+}
+/*notice*/
+.list-group-item{
+	background:transparent;
+	border: 1px solid #cecece;
+	
+}
+.notice-board{
+	border: 1px solid #666;
+	border-radius: 5px;
+	height:100%;
+	margin-top:5px;
+}
+.notice-board h3{
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:10px;
+}
+/*about us*/
+.about-us{
+	padding:0px 10px 10px 10px;
+}
+/* login form*/
+.login-form{
+	margin-left: auto;
+    margin-right: auto;
+	width:40%;
+	margin-top:20px;
+}
+.form-control{
+	width:50%;
+	height: 40px;
+}
+.form-group{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+form {
+	border: 1px solid #B9C8B9;
+	border-radius: 5px;
+	
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-form .btn-default:hover {
+	opacity: 0.8;
+	background-color: #4CAF50;
+	border:none;
+}
+.btn-default.focus, .btn-default:focus {
+    color: #333;
+    background-color: #4CAF50;
+    border:none
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+/*padding*/
+.p15{
+	padding:15px;
+}
+.purd15{
+	padding:15px 15px 15px 0;
+}
+
+.p15s{
+	padding:15px;
+	color:#000;
+}
+
+/*table*/
+table{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+}
+th{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	text-align:center;
+ }
+ td {
+	text-align:center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+table td a{
+	color:#3B3B3B;
+}
+table td a:focus,table td a:hover {
+    color: #3B3B3B;
+    text-decoration: underline;
+}
+/*student*/
+.studentinfo{
+	border: 1px solid #666;
+	border-radius: 5px;
+	height:100%;
+	margin-top:5px;
+}
+.studentinfo h3{
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:5px;
+}
+.student-enroll th{
+	padding:5px;
+}
+.student-enroll td{
+	padding:5px;
+}
+/*teacher*/
+.teacherinfo{
+	border: 1px solid #666;
+	border-radius: 5px;
+	height:100%;
+	margin-top:5px;
+}
+.teacherinfo h3{
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:5px;
+}
+
+.taken-cls th{
+	padding:5px;
+}
+.taken-cls td{
+	padding:5px;
+}
+.teacherinfo .list-group .list-group-item{
+	font-size:14px;
+}
+/*attendance*/
+.attendance-sheet th{
+	padding:5px;
+}
+.attendance-sheet td{
+	padding:5px;
+}
+
+.attendance-sheet button{
+	background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+	width:150px;
+	display:inline-block;
+	border-radius:5px;
+}
+
+.attendance-sheet .btn-default:hover {
+	opacity: 0.8;
+	background-color: #4CAF50;
+	border:none;
+}
+/*view - Attendance*/
+.view-attendance button{
+	background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+	width:150px;
+	display:inline-block;
+	border-radius:5px;
+}
+.view-attendance td{
+	padding:5px;
+}
+.view-attendance th{
+	padding:5px;
+}
+.view-attendance .btn-default:hover {
+	opacity: 0.8;
+	background-color: #4CAF50;
+	border:none;
+}
+.view-attendance .purd15 form{
+	border:none;
+}
+.view-attendance .purd15 .form-control{
+	width:100%;
+}
+.sheet-inline{
+	display:inline-block;
+}
+/*result*/
+.result th{
+	padding:10px;
+}
+.result td{
+	padding:0px;
+}
+.result input[type=text], .result input[type=number] {
+    width: 30%;
+    padding: 6px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.result button{
+	background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+	width:150px;
+	display:inline-block;
+	border-radius:5px;
+}
+.result .btn-default:hover {
+	opacity: 0.8;
+	background-color: #4CAF50;
+	border:none;
+}
+.pub-result .purd15 form{
+	border:none;
+}
+.pub-result .purd15 .form-control{
+	width:100%;
+}
+.pub-result button{
+	background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+	width:150px;
+	display:inline-block;
+	border-radius:5px;
+}
+.pub-result .btn-default:hover {
+	opacity: 0.8;
+	background-color: #4CAF50;
+	border:none;
+}
+.resultview table th{
+	padding:5px;
+}
+.resultview table td{
+	padding:5px;
+}
+
+.pnt{
+	cursor:pointer;
+}
+/*teacher list */
+		.teacher-info{
+			margin-top:-1px;border: 1px solid #222; border-radius:2px;padding:10px;list-style:none;
+		}
+		.teacher-info img{
+			max-height:180px;border-radius:2%;
+		}
+		.teacher-info ul li{
+			list-style:none;
+		}

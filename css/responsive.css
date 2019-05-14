@@ -1,0 +1,156 @@
+/* Responsive */
+
+@media only screen and (max-width: 991px) {
+    .about-us .description .info {
+        padding: 10px 10px;
+    }
+    .about-us h2 {
+        font-size: 26px;
+    }
+    .sections .about-us .description {
+        width: 290px;
+    }
+    .about-us p {
+        font-size: 14px;
+    }
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+    .carousel-caption p {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    header .container {
+        min-width: 100%;
+    }
+    header .navigation {
+        z-index: 999;
+    }
+    header .info {
+    }
+    header .info .container>div {
+        float: none !important;
+        text-align: center;
+        margin: 2px;
+    }
+    header .info .contacts {
+        display: none;
+    }
+    header .navbar .container {
+        left: 0;
+        top: 0;
+        transform: none;
+    }
+    button span.icon-bar {
+        transition: .4s all;
+    }
+    button[aria-expanded="true"] span.icon-bar:nth-child(2) {
+        transform: rotate(-45deg) translate(-1px, 7px);
+    }
+    button[aria-expanded="true"] span.icon-bar:nth-child(3) {
+        opacity: 0;
+        color: #A92459;
+    }
+    button[aria-expanded="true"] span.icon-bar:nth-child(4) {
+        transform: rotate(45deg) translate(-1px, -7px);
+    }
+    button span.icon-bar:nth-child(3) {
+        transition-duration: .1s;
+    }
+    header .navbar-collapse {
+        background-color: rgba(169, 36, 89, 0.7);
+        border: none;
+    }
+    #main-carousel .carousel-control span {
+        font-size: 15px;
+        top: 65%;
+    }
+    .carousel-indicators {
+        margin-bottom: 0;
+        bottom: 5px;
+    }
+    .navbar-nav>li>a {
+        padding: 10px 19px;
+    }
+    .navbar-nav>li:after {
+        content: none !important;
+    }
+    .navbar-header .navbar-toggle {
+        right: 0px;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    .carousel-caption {
+        top: 60%;
+    }
+    .navbar-toggle:focus,
+    .navbar-toggle:hover {
+        background: none !important;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: white;
+    }
+    .navigation .info .container {
+        padding: 0;
+    }
+    .search-block {
+        float: none !important;
+        text-align: center;
+        margin: 0;
+    }
+    #main-carousel {
+        top: 41px;
+    }
+    .carousel-caption h1 {
+        font-size: 16px;
+    }
+    .carousel-caption p {
+        font-size: 13px;
+        margin-top: 0px;
+    }
+    .search-block i {
+        font-size: 20px;
+    }
+    .carousel-indicators li,
+    .carousel-indicators .active {
+        width: 10px;
+        height: 10px;
+    }
+    .about-us .description .info {
+        padding: 10px 10px;
+    }
+    .about-us h2 {
+        font-size: 26px;
+    }
+    .about-us p {
+        font-size: 14px;
+    }
+    .about-us .description-block {
+        position: relative;
+        transform: none;
+    }
+    .sections .about-us .description {
+        margin: -40px auto auto auto;
+        width: 90%;
+    }
+    .about-us .cover-image {
+        text-align: center;
+        max-width: 100%;
+    }
+    .services .border-after {
+        padding: 15px;
+    }
+    .services .description h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    #search_modal form {
+        width: 95%;
+    }
+    footer .contacts {
+        max-width: 100%;
+    }
+}

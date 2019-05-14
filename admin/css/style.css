@@ -1,0 +1,296 @@
+/*adim*/
+body{
+	background-color:#e4e4e4e4;
+}
+/*navbar*/
+.navbar{
+	margin-bottom:0px;
+	border-radius:5px;
+}
+.navbar-inverse {
+    background-color: #4CAF50;
+    border-color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #EBEBEB;
+    background-color: #aeaeaeae;
+
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #EBEBEB;
+
+}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+     color: #EBEBEB;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+/*slide*/
+.slide{
+	margin-top:5px;
+}
+.slide-responsive{
+	width:100%;
+	max-height:300px;
+}
+/*notice*/
+.list-group-item{
+	background:transparent;
+	border: 1px solid #cecece;
+	
+}
+.notice-board{
+	border: 1px solid #666;
+	border-radius: 5px;
+	height:300px;
+	margin-top:5px;
+}
+.notice-board h3{
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:5px;
+}
+/* login form*/
+.login-form{
+	margin-left: auto;
+    margin-right: auto;
+	width:40%;
+	margin-top:20px;
+}
+.form-control{
+	width:50%;
+	height: 40px;
+}
+.form-group{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+form {
+	border: 1px solid #B9C8B9;
+	border-radius: 5px;
+	
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 20px 20px 20px 4px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-form .btn-default:hover {
+	opacity: 0.8;
+	background-color: #4CAF50;
+	border:none;
+}
+.btn-default.focus, .btn-default:focus {
+    color: #333;
+    background-color: #4CAF50;
+    border:none
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.p15{
+	padding:15px;
+}
+.p15s{
+	padding:15px;
+	color:#000;
+}
+.purd15{
+	padding:15px 15px 15px 0;
+}
+
+.plrb{
+	padding:0px 10px 0px 10px;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+/*table*/
+table{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+}
+th{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	text-align:center;
+ }
+ td {
+	text-align:center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+table td a{
+	color:#3B3B3B;
+}
+table td a:focus,table td a:hover {
+    color: #3B3B3B;
+    text-decoration: underline;
+}
+/*admin-panel*/
+.btn-group .btn-title{
+	width: 85%; 
+	height: 46px;
+	padding-top:10px;
+	font-weight:bold;
+	font-size:16px;
+}
+.btn-group .btn-icon{
+	width: 15%; 
+	height: 46px;
+    padding-bottom: 12px;
+}
+/*student*/
+/*student*/
+.studentinfo{
+	border: 1px solid #666;
+	border-radius: 5px;
+	height:100%;
+	margin-top:5px;
+}
+.studentinfo h3{
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:5px;
+}
+.student-enroll{
+	border: 1px solid #666;
+	border-radius: 5px;
+	height:100%;
+	margin-top:5px;
+}
+.student-enroll h3{
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:5px;
+}
+.attendance{
+	
+}
+.attendance button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
+
+.attendance .btn-default:hover {
+	opacity: 0.8;
+	background-color: #4CAF50;
+	border:none;
+}
+.p15-inline{
+	display:inline-block;
+}
+.attendance-inline{
+		display:inline-block;
+}
+/*teacher*/
+.teacherlist th{
+	padding:5px;
+}
+.teacherlist td{
+	padding:5px;
+}
+.pnt{
+	cursor:pointer;
+}
+/*student list*/
+.studentlist-info th{
+	padding:5px;
+}
+.studentlist-info td{
+	padding:5px;
+}
+
+/*subject list */
+
+.subject-list th{
+	padding:10px;
+}
+.subject-list td{
+	padding:10px;
+}
+/*batch info*/
+
+.btn-group .btn-batch{
+	width:100%;
+	font-size:16px;
+	font-weight:bold;
+	padding-top:10px;
+}
+/* slide */
+
+.slide-img{
+	border:1px solid #000;
+	border-radius:4px;
+	padding:10px;
+	margin-bottom:20px;
+}
+.slide-img a{
+	color:#000;
+	font-size:18px;
+}
+.slide-img img{
+	text-align:center;
+	border-radius:2%;
+	max-height:300px;
+
+}
+/*notice */
+.notice-list a{
+	color: #000;
+	text-decoration: none;
+	font-size: 16px;
+}
+.badge{
+	background:transparent;
+}
+.badge a{
+	color:#000;
+	padding-left:10px;
+}
